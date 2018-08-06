@@ -1,0 +1,19 @@
+html
+   head
+      title Form Tester
+   body
+      form(action = "/form", method = "POST")
+         div
+            label(for = "name") NAME:
+            input(name = "username" value = "enter")
+         br
+         div
+            label(for = "age") AGE:
+            input(name = "age" value = "0")
+         br
+         div
+            label(for = "nationality") Nationality:
+            input(name = "nationality" value="India")
+         br
+         br
+         button(type = "submit") Send my greetings
